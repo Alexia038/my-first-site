@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review - A Literary Masterpiece</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #d8517d;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+
+        .paragraph1 {
+            background-color: #fce4ec;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .paragraph2 {
+            background-color: #f8bcc9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .quote {
+            color: #c2185b;
+            font-style: italic;
+            font-weight: bold;
+            margin: 15px 0;
+            padding-left: 10px;
+            border-left: 4px solid #c2185b;
+        }
+        .comments-section {
+            background-color: #fce4ec;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            border: 2px solid #e91e63;
+        }
+        .comments-section h2 {
+            color: #c2185b;
+        }
+        .comment-box {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            resize: vertical;
+            min-height: 120px;
+        }
+        button {
+            background-color: #e91e63;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #c2185b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Review</h1>
+        <p>Discover the insights about timeless literature</p>
+    </header>
+
+    <div class="paragraph1">
+        <h2><b>To Kill a Mockingbird</b> by <u>Harper Lee</u></h2>
+        <p>
+            <i>Tuer un Mockingbird</i> stands as one of the most influential novels in American literature. 
+            This masterpiece explores themes of racial injustice, moral growth, and the loss of innocence through 
+            the eyes of a young girl named Scout. The narrative brilliantly weaves together coming-of-age elements 
+            with a gripping courtroom drama that challenges readers to confront their own prejudices and beliefs.
+        </p>
+        <div class="quote">
+            "You never really understand a person until you consider things from his point of view."
+        </div>
+    </div>
+
+    <div class="paragraph2">
+        <h2>A Timeless Narrative</h2>
+        <p>
+            Lee's prose is elegant and deeply moving, creating unforgettable characters that resonate long after 
+            the final page. The novel's exploration of courage—both moral and physical—provides readers with profound 
+            lessons about standing up for what is right. For more context on the novel's historical significance, 
+            visit <a href="https://www.sparknotes.com/lit/mockingbird/">SparkNotes for additional analysis and text fragments</a>. 
+            Whether you're a first-time reader or revisiting this classic, the book offers new insights and reflections 
+            on justice, compassion, and human dignity.
+        </p>
+    </div>
+
+    <div class="comments-section">
+        <h2>Comments & Discussion</h2>
+        <p>Share your thoughts and impressions about this book:</p>
+        <textarea class="comment-box" placeholder="Write your comment here..."></textarea>
+        <button>Submit Comment</button>
+    </div>
+</body>
+</html>
